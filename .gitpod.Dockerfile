@@ -21,3 +21,4 @@ RUN sudo apt-get update \
  
  # Additional settings/tweaks
  RUN echo 1 > /proc/sys/vm/overcommit_memory
+ RUN echo never > /sys/kernel/mm/transparent_hugepage/enabled
