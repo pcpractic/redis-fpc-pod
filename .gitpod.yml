@@ -4,4 +4,4 @@ image:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
   - command: mkdir -p /workspace/redis-fpc-pod/data && sleep 5
-  - command: redis-server /workspace/redis-fpc-pod/redis.conf &
+  - command: redis-server /workspace/redis-fpc-pod/redis.conf --protected-mode no &
