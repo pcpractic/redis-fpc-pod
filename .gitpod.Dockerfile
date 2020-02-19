@@ -18,3 +18,6 @@ RUN sudo apt-get update \
  && sudo apt-get install -y \
   redis-server \
  && sudo rm -rf /var/lib/apt/lists/*
+ 
+ # Additional settings/tweaks
+ RUN echo 1 > /proc/sys/vm/overcommit_memory
