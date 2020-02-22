@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM debian:latest
 
 USER root
 
