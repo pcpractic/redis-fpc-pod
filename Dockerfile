@@ -10,7 +10,6 @@ RUN apt-get -y install curl
 RUN apt-get -y install libnss3-dev
 RUN apt-get -y install openssh-client
 RUN apt-get -y install mc
-RUN apt install software-properties-common
 RUN apt-get -y install gcc make autoconf libc-dev pkg-config
 
 # Install Redis.
